@@ -1,6 +1,13 @@
 # MCP Agent Stack
 
 ## Overview
+ codex/setup-mcp-agent-orchestration-repository
+Modular, versioned MCP agent orchestration system with CI/CD, SBOM, and staging deployment readiness.
+
+## Setup
+pip install -r requirements.txt
+python src/agents.py
+=======
 Modular, versioned MCP agent orchestration system with CI/CD, SBOM, and staging deployment readiness. The orchestrator coordinates the DataParser, Summarizer, Optimizer and Logger agents to process input text.
 
 ## Setup
@@ -17,6 +24,7 @@ python src/agents.py
 ```bash
 python -m unittest discover src
 ```
+ main
 
 ## Deployment
 - GitHub Actions auto-bumps version
