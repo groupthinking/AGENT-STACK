@@ -1,0 +1,25 @@
+name: SBOM
+
+on:
+  workflow_run:
+    workflows: [Release]
+    types: [completed]
+
+permissions:
+  id-token: write
+  attestations: write
+  contents: read
+
+jobs:
+  sbom:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch }}
+          fetch-depth: 0
+      - name: Generate SBOM (stub)
+        run: echo "SBOM generation logic goes here."
+      - name: Attest SBOM (stub)
+        run: echo "SBOM attestation logic goes here."
