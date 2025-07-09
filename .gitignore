@@ -5,3 +5,9 @@ __pycache__/
 .env
 dist/
 build/
+ codex/setup-mcp-agent-orchestration-repository
+=======
+
+*.egg-info/
+venv/
+ main
