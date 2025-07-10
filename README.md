@@ -5,7 +5,8 @@
 Modular, versioned MCP agent orchestration system with CI/CD, SBOM, and staging deployment readiness.
 
 ## Setup
-pip install -r requirements.txt
+pip install
+-r requirements.txt
 python src/agents.py
  codex/setup-mcp-agent-orchestration-repository
 
