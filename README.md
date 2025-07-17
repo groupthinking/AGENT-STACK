@@ -32,3 +32,8 @@ python -m unittest discover src
 - GitHub Actions auto-bumps version
 - SBOM generated on release
 - Canary deploy stub included
+
+## Design Notes
+This project references a shared ChatGPT conversation on decentralized AI marketplace architecture: https://chatgpt.com/share/68784902-a1a0-8003-92b2-1a9159c3f4a6.
+The discussion outlines considerations for a token-driven ecosystem, rating mechanisms, and governance for marketplace participants.
+
