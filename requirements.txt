@@ -1,1 +1,28 @@
-uuid
+# Core dependencies
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+structlog>=23.0.0
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Async and performance
+asyncio-mqtt>=0.16.0
+aiohttp>=3.8.0
+
+# Monitoring and observability
+prometheus-client>=0.17.0
+psutil>=5.9.0
+
+# Configuration and validation
+pydantic-settings>=2.0.0
+
+# Testing and development
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+httpx>=0.25.0
+
+# Security
+cryptography>=41.0.0
