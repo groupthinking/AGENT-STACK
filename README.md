@@ -4,6 +4,8 @@
 
 **Production-ready** modular MCP agent orchestration system with comprehensive monitoring, security, and scalability features. The orchestrator coordinates DataParser, Summarizer, Optimizer and Logger agents to process input text through a robust pipeline.
 
+Documentation is available in the [docs](docs/index.md) folder and on the project site.
+
 ## 🚀 Production Features
 
 - ✅ **Async Processing** - High-performance concurrent request handling
