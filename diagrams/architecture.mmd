@@ -1,0 +1,8 @@
+graph TD
+    A[Client Request] --> B[FastAPI Server]
+    B --> C[Orchestrator]
+    C --> D[DataParserAgent]
+    C --> E[SummarizerAgent]
+    C --> F[OptimizerAgent]
+    C --> G[LoggerAgent]
+    C --> H[Monitoring]

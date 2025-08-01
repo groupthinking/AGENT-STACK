@@ -1,0 +1,10 @@
+site_name: MCP Agent Stack
+nav:
+  - Home: docs/index.md
+  - Architecture: docs/architecture.md
+  - Deployment: DEPLOYMENT.md
+  - Production Ready Summary: PRODUCTION_READY_SUMMARY.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc
